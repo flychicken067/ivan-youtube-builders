@@ -92,14 +92,16 @@ function getTranscript(videoUrl, ytdlpAvailable) {
       `yt-dlp --write-auto-sub --sub-lang en --skip-download --sub-format vtt -o /tmp/yt-transcript "${videoUrl}" 2>/dev/null && cat /tmp/yt-transcript.en.vtt 2>/dev/null || echo ""`,
       { timeout: 30000, encoding: 'utf8' }
     );
-    // Strip VTT formatting, get plain text
+    // Strip VTT formatting, get plain text, deduplicate repeated lines
+    const seen = new Set();
     const plain = result
       .replace(/WEBVTT[\s\S]*?\n\n/, '')
       .replace(/<[^>]+>/g, '')
-      .replace(/\d{2}:\d{2}:\d{2}\.\d{3} --> [\s\S]*?\n/g, '')
-      .replace(/^\d+\n/gm, '')
+      .replace(/\d{2}:\d{2}:\d{2}[.,]\d{3}\s*-->\s*[\s\S]*?\n/g, '')
+      .replace(/^\d+\s*$/gm, '')
       .split('\n')
-      .filter(l => l.trim())
+      .map(l => l.trim())
+      .filter(l => l && !seen.has(l) && seen.add(l))
       .join(' ')
       .slice(0, 3000); // First 3000 chars is enough for remixing
     return plain || null;
