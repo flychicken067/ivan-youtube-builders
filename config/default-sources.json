@@ -12,13 +12,22 @@
       "subs": "~1.3M"
     },
     {
-      "name": "Yannic Kilcher",
-      "handle": "@YannicKilcher",
-      "channel_id": "UCHmD-oSpV0sNfAUnpYpj8KA",
+      "name": "Aladdin Persson",
+      "handle": "@AladdinPersson",
+      "channel_id": "UCkzW5JSFwvKRjXABI-UTAkQ",
       "tier": 1,
-      "why_builder": "Reads actual ML research papers on camera and builds intuition for what the math means in practice. Covers papers as they drop.",
-      "cadence": "~weekly when active",
-      "subs": "~308K"
+      "why_builder": "Implements ML papers from scratch in PyTorch — YOLO, GANs, transformers, ViT. Clean, minimal code with no filler. One of the few channels where the code is the point.",
+      "cadence": "~monthly (irregular, high quality)",
+      "subs": "~170K"
+    },
+    {
+      "name": "Aleksa Gordić / The AI Epiphany",
+      "handle": "@TheAIEpiphany",
+      "channel_id": "UCj8shE7aIn4Yawwbo2FceCQ",
+      "tier": 1,
+      "why_builder": "Former DeepMind researcher. Walks through ML papers on camera, implements key parts in code, explains what the math means in practice. Karpathy-level depth at higher frequency.",
+      "cadence": "~2-3/month",
+      "subs": "~64K"
     },
     {
       "name": "Jeremy Howard",

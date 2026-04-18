@@ -63,20 +63,23 @@ No API keys needed. Your first digest arrives immediately after setup.
 
 ---
 
-## Tracked Builders (10)
+## Tracked Builders (11)
 
 **Builder test:** Does this person build/code on camera? If yes, in. If they only talk about what others built, out.
+
+**Why this list:** YouTube-native builders only — not Twitter people who happen to have a channel. The T1 depth-builder space is genuinely thin: no channel simultaneously has >200K subs, weekly frequency, AND research-level implementation depth. That's a fact about the YouTube ML ecosystem, not a gap in this list.
 
 ### ★ Tier 1 — Depth builders (write or run code on camera)
 
 | Builder | Domain | Why in / cadence |
 |---------|--------|-----------------|
-| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / LLMs | Codes neural nets from scratch. GPT-2, tokenizers, transformers — live. ~1.3M subs. 4-5 videos/year, each 1-4h. |
-| [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) | ML research | Reads actual papers on camera, builds intuition for what the math means in practice. Covers papers as they drop. ~308K subs. |
-| [Jeremy Howard](https://www.youtube.com/@jeremyphoward) | Deep learning | fast.ai founder. Builds DL from first principles on camera — best "understand by building" course for coders. ~145K subs. |
+| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / LLMs | Codes neural nets from scratch. GPT-2, tokenizers, transformers — live. ~1.3M subs. 4-5 videos/year, each 1-4h. Each video is an event. |
+| [Aladdin Persson](https://www.youtube.com/@AladdinPersson) | ML paper implementations | Implements ML papers from scratch in PyTorch — YOLO, GANs, transformers, ViT. Clean, minimal, no filler. ~170K subs, ~monthly. |
+| [Aleksa Gordić / The AI Epiphany](https://www.youtube.com/@TheAIEpiphany) | ML research → code | Former DeepMind. Walks through papers on camera, implements key parts in code. Karpathy-level depth at higher frequency. ~64K subs, 2-3/month. |
 | [George Hotz / geohot](https://www.youtube.com/@geohotorg) | Self-driving / ML infra | Livestreams writing AI systems without a script. Built tinygrad and comma.ai. Fights CUDA live. ~216K subs. |
-| [Sebastian Raschka](https://www.youtube.com/@sebastianraschka) | LLMs from scratch | Author of *Build a Large Language Model from Scratch*. Channel follows the book — PyTorch, first principles. ~62K subs. |
-| [Umar Jamil](https://www.youtube.com/@umarjamil) | Transformers / diffusion | Implements transformers, RLHF, diffusion models from scratch in code. Undersubscribed relative to quality. ~50K subs. |
+| [Jeremy Howard](https://www.youtube.com/@jeremyphoward) | Deep learning | fast.ai founder. Builds DL from first principles on camera — best "understand by building" course for coders. ~145K subs. Course cycles. |
+| [Sebastian Raschka](https://www.youtube.com/@sebastianraschka) | LLMs from scratch | Author of *Build a Large Language Model from Scratch*. Channel follows the book — PyTorch, first principles. ~62K subs, weekly. |
+| [Umar Jamil](https://www.youtube.com/@umarjamil) | Transformers / diffusion | Implements transformers, RLHF, diffusion models from scratch in code. Undersubscribed relative to quality. ~50K subs, monthly. |
 
 ### ☆ Tier 2 — Breadth builders (ship demos, cover the landscape)
 
@@ -86,6 +89,8 @@ No API keys needed. Your first digest arrives immediately after setup.
 | [3Blue1Brown](https://www.youtube.com/@3blue1brown) | Math / Neural nets | Builds visualizations that make attention and transformers click. Not a coder — a visual builder. ~8.2M subs. |
 | [Fireship](https://www.youtube.com/@Fireship) | Full-stack / AI tools | Best signal layer — covers every significant AI release within days. Ships code demos in under 10 min. ~4.1M subs. |
 | [Theo (t3.gg)](https://www.youtube.com/@t3dotgg) | Full-stack / AI products | Ships full-stack AI products live. Built T3 Chat in 5 days. Honest developer take, no hype. ~472K subs. |
+
+**Not tracked:** Yannic Kilcher — dormant since early 2025, no uploads in 2026. Lex Fridman — interviewer, fails builder test. Two Minute Papers — commentary only.
 
 Want to suggest a channel? Open an issue. State what they built on camera in the last 3 months.
 
@@ -186,20 +191,23 @@ _看造东西的人，不看说东西的人。_
 
 *Karpathy / geohot：过去48小时无新视频。*
 
-### 追踪的 Builders（10位）
+### 追踪的 Builders（11位）
 
 **筛选标准：** 这个人在镜头前写代码或 ship 产物吗？是 → 入选。只谈别人做了什么 → 不入选。
+
+**说明：** T1 深度 builder 在 YouTube 上本就稀缺——没有一个频道同时满足 >20万订阅 + 每周更新 + 研究级实现深度。这是 YouTube ML 生态的现实，不是名单的缺陷。
 
 **★ 一级 — 深度 Builder（在镜头前写/跑代码）**
 
 | Builder | 领域 | 为什么入选 |
 |---------|------|-----------|
-| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / 大模型 | 从零写神经网络，GPT-2、tokenizer 全在镜头前完成。~130万订阅。 |
-| [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) | ML 研究 | 在镜头前读 ML 论文，把数学直觉在代码层讲清楚。新论文一出就跟上。 |
-| [Jeremy Howard](https://www.youtube.com/@jeremyphoward) | 深度学习 | fast.ai 创始人。在镜头前从第一原理构建 DL。~14.5万订阅。 |
+| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / 大模型 | 从零写神经网络，GPT-2、tokenizer 全在镜头前完成。~130万订阅。每个视频都是事件。 |
+| [Aladdin Persson](https://www.youtube.com/@AladdinPersson) | ML论文实现 | 从零用 PyTorch 实现 ML 论文——YOLO、GAN、Transformer、ViT。代码干净，没有废话。~17万订阅，月更。 |
+| [Aleksa Gordić / The AI Epiphany](https://www.youtube.com/@TheAIEpiphany) | ML研究→代码 | 前 DeepMind 研究员。在镜头前读论文，实现关键部分，把数学讲清楚。Karpathy 级别的深度，更高频率。~6.4万订阅，2-3/月。 |
 | [George Hotz / geohot](https://www.youtube.com/@geohotorg) | 自动驾驶 / ML基础设施 | 直播写 AI 系统，没有脚本。做了 tinygrad 和 comma.ai。~21.6万订阅。 |
-| [Sebastian Raschka](https://www.youtube.com/@sebastianraschka) | 从零实现大模型 | 《从零构建大语言模型》作者。频道跟书走，PyTorch 第一原理。~6.2万订阅。 |
-| [Umar Jamil](https://www.youtube.com/@umarjamil) | Transformer / 扩散模型 | 从零实现 Transformer、RLHF、扩散模型。订阅量低于应有水平。~5万订阅。 |
+| [Jeremy Howard](https://www.youtube.com/@jeremyphoward) | 深度学习 | fast.ai 创始人。在镜头前从第一原理构建 DL。~14.5万订阅。课程周期更新。 |
+| [Sebastian Raschka](https://www.youtube.com/@sebastianraschka) | 从零实现大模型 | 《从零构建大语言模型》作者。频道跟书走，PyTorch 第一原理。~6.2万订阅，周更。 |
+| [Umar Jamil](https://www.youtube.com/@umarjamil) | Transformer / 扩散模型 | 从零实现 Transformer、RLHF、扩散模型。订阅量低于应有水平。~5万订阅，月更。 |
 
 **☆ 二级 — 广度 Builder（ship demo、覆盖技术全景）**
 
@@ -209,6 +217,8 @@ _看造东西的人，不看说东西的人。_
 | [3Blue1Brown](https://www.youtube.com/@3blue1brown) | 数学 / 神经网络 | 构建让 Attention 和 Transformer 真正清楚的视觉化工具。不写代码，但是视觉 Builder。~820万订阅。 |
 | [Fireship](https://www.youtube.com/@Fireship) | 全栈 / AI工具 | 最好的广度信号层。每个重要 AI 发布几天内就覆盖，10分钟内 ship 可运行 demo。~410万订阅。 |
 | [Theo (t3.gg)](https://www.youtube.com/@t3dotgg) | 全栈 / AI产品 | 直播 ship AI 产品。T3 Chat 5天做完。对 AI 工具链有诚实的开发者视角，不炒作。~47万订阅。 |
+
+**不追踪：** Yannic Kilcher——2025年初后实际停更，2026年确认无上传。Lex Fridman——采访者，不通过筛选标准。Two Minute Papers——纯评论。
 
 ### 安装
 
