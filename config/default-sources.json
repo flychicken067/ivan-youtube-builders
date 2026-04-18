@@ -1,28 +1,96 @@
 {
+  "_note": "Builder test: does this person build/code on camera? If yes, in. If they only talk about what others built, out.",
+  "_methodology": "YouTube-native builders first. Not Twitter people who happen to have a channel.",
   "youtube_channels": [
     {
       "name": "Andrej Karpathy",
-      "handle": "AndrejKarpathy",
+      "handle": "@AndrejKarpathy",
       "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
-      "why_builder": "writes code on camera, videos are a byproduct of building"
+      "tier": 1,
+      "why_builder": "Writes code on camera from scratch. GPT-2, tokenizers, neural nets. Videos are a byproduct of building, not the product.",
+      "cadence": "~4-5 videos/year, each 1-4h",
+      "subs": "~1.3M"
+    },
+    {
+      "name": "Yannic Kilcher",
+      "handle": "@YannicKilcher",
+      "channel_id": "UCHmD-oSpV0sNfAUnpYpj8KA",
+      "tier": 1,
+      "why_builder": "Reads actual ML research papers on camera and builds intuition for what the math means in practice. Covers papers as they drop.",
+      "cadence": "~weekly when active",
+      "subs": "~308K"
+    },
+    {
+      "name": "Jeremy Howard",
+      "handle": "@jeremyphoward",
+      "channel_id": "UCX7Y2qWriXpqocG97SFW2OQ",
+      "tier": 1,
+      "why_builder": "Builds deep learning from first principles on camera. fast.ai course is the best 'understand by building' entry point for coders.",
+      "cadence": "Course cycles, irregular",
+      "subs": "~145K"
     },
     {
       "name": "George Hotz / geohot",
-      "handle": "geohotorg",
+      "handle": "@geohotorg",
       "channel_id": "UCwgKmJM4ZJQRJ-U5NjvR2dg",
-      "why_builder": "live-codes self-driving AI systems, ships tinygrad and comma.ai"
+      "tier": 1,
+      "why_builder": "Livestreams writing AI systems without a script. Built comma.ai self-driving stack and tinygrad (from-scratch ML framework). Fights CUDA live.",
+      "cadence": "Irregular, high signal when active",
+      "subs": "~216K"
+    },
+    {
+      "name": "Sebastian Raschka",
+      "handle": "@sebastianraschka",
+      "channel_id": "UC_CzsS7UTjcxJ-xXp1ftxtA",
+      "tier": 1,
+      "why_builder": "Author of 'Build a Large Language Model from Scratch'. Channel follows the book — implements LLMs in PyTorch from first principles.",
+      "cadence": "~weekly",
+      "subs": "~62K"
+    },
+    {
+      "name": "Umar Jamil",
+      "handle": "@umarjamil",
+      "channel_id": "UCtAcpQcYerN8xxZJYTfWBMw",
+      "tier": 1,
+      "why_builder": "Implements transformers, diffusion models, and RLHF from scratch in code. Highly technical, undersubscribed relative to quality.",
+      "cadence": "~monthly",
+      "subs": "~50K+"
+    },
+    {
+      "name": "Sentdex",
+      "handle": "@sentdex",
+      "channel_id": "UCQALLeQPoZdZC4JNUboVEUg",
+      "tier": 2,
+      "why_builder": "YouTube-native builder since 2012. Codes Python/ML/AI live — neural nets, robotics, trading. Rough but real: you watch him build start to finish.",
+      "cadence": "~weekly",
+      "subs": "~1.3M"
     },
     {
       "name": "3Blue1Brown",
-      "handle": "3blue1brown",
+      "handle": "@3blue1brown",
       "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
-      "why_builder": "builds mathematical visualizations that make neural nets comprehensible"
+      "tier": 2,
+      "why_builder": "Not a coder — a visual builder. Constructs mathematical visualizations that make neural nets, attention, and transformers actually click. Took a hiatus in 2025.",
+      "cadence": "~15-20/year (slow in 2025)",
+      "subs": "~8.2M"
     },
     {
       "name": "Fireship",
-      "handle": "Fireship",
+      "handle": "@Fireship",
       "channel_id": "UCsBjURrPoezykLs9EqgamOA",
-      "why_builder": "ships code demos in under 10 minutes, always working prototypes"
+      "tier": 2,
+      "why_builder": "Best breadth/velocity layer. Ships code demos in under 10 minutes. Covers every significant AI tool within days of release. Builds and sells his own courses.",
+      "cadence": "~weekly",
+      "subs": "~4.1M"
+    },
+    {
+      "name": "Theo (t3.gg)",
+      "handle": "@t3dotgg",
+      "channel_id": "UCtuO2h6OwDueF7h3p8DYYjQ",
+      "tier": 2,
+      "why_builder": "Ships full-stack AI products live. Built T3 Chat in 5 days. Honest developer take on AI tooling — not hype, not theory.",
+      "cadence": "~5 videos/week",
+      "subs": "~472K"
     }
   ]
 }

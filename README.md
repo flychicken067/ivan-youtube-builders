@@ -63,16 +63,31 @@ No API keys needed. Your first digest arrives immediately after setup.
 
 ---
 
-## Tracked Builders (4)
+## Tracked Builders (10)
 
-| Builder | Channel | Why a builder, not a KOL |
-|---------|---------|--------------------------|
-| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / LLMs | Writes code on camera. Videos are a byproduct of building. |
-| [George Hotz / geohot](https://www.youtube.com/@geohotorg) | Self-driving / tinygrad | Livestreams writing AI systems. Ships comma.ai. |
-| [3Blue1Brown](https://www.youtube.com/@3blue1brown) | Math / Neural nets | Builds visualizations that make hard concepts actually click. |
-| [Fireship](https://www.youtube.com/@Fireship) | Full-stack / AI tools | Ships working code demos in under 10 minutes. Always a real artifact. |
+**Builder test:** Does this person build/code on camera? If yes, in. If they only talk about what others built, out.
 
-Want to suggest a channel? Open an issue. It needs to pass the builder test: *what did they make on camera in the last 3 months?*
+### ★ Tier 1 — Depth builders (write or run code on camera)
+
+| Builder | Domain | Why in / cadence |
+|---------|--------|-----------------|
+| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / LLMs | Codes neural nets from scratch. GPT-2, tokenizers, transformers — live. ~1.3M subs. 4-5 videos/year, each 1-4h. |
+| [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) | ML research | Reads actual papers on camera, builds intuition for what the math means in practice. Covers papers as they drop. ~308K subs. |
+| [Jeremy Howard](https://www.youtube.com/@jeremyphoward) | Deep learning | fast.ai founder. Builds DL from first principles on camera — best "understand by building" course for coders. ~145K subs. |
+| [George Hotz / geohot](https://www.youtube.com/@geohotorg) | Self-driving / ML infra | Livestreams writing AI systems without a script. Built tinygrad and comma.ai. Fights CUDA live. ~216K subs. |
+| [Sebastian Raschka](https://www.youtube.com/@sebastianraschka) | LLMs from scratch | Author of *Build a Large Language Model from Scratch*. Channel follows the book — PyTorch, first principles. ~62K subs. |
+| [Umar Jamil](https://www.youtube.com/@umarjamil) | Transformers / diffusion | Implements transformers, RLHF, diffusion models from scratch in code. Undersubscribed relative to quality. ~50K subs. |
+
+### ☆ Tier 2 — Breadth builders (ship demos, cover the landscape)
+
+| Builder | Domain | Why in / cadence |
+|---------|--------|-----------------|
+| [Sentdex](https://www.youtube.com/@sentdex) | Python / ML | YouTube-native since 2012. Codes AI on camera start to finish — neural nets, robotics, trading. ~1.3M subs, weekly. |
+| [3Blue1Brown](https://www.youtube.com/@3blue1brown) | Math / Neural nets | Builds visualizations that make attention and transformers click. Not a coder — a visual builder. ~8.2M subs. |
+| [Fireship](https://www.youtube.com/@Fireship) | Full-stack / AI tools | Best signal layer — covers every significant AI release within days. Ships code demos in under 10 min. ~4.1M subs. |
+| [Theo (t3.gg)](https://www.youtube.com/@t3dotgg) | Full-stack / AI products | Ships full-stack AI products live. Built T3 Chat in 5 days. Honest developer take, no hype. ~472K subs. |
+
+Want to suggest a channel? Open an issue. State what they built on camera in the last 3 months.
 
 ---
 
@@ -171,14 +186,29 @@ _看造东西的人，不看说东西的人。_
 
 *Karpathy / geohot：过去48小时无新视频。*
 
-### 追踪的 Builders（4位）
+### 追踪的 Builders（10位）
 
-| Builder | 频道 | 为什么是 Builder 不是 KOL |
-|---------|------|--------------------------|
-| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / 大模型 | 在镜头前写代码，视频是副产品 |
-| [George Hotz / geohot](https://www.youtube.com/@geohotorg) | 自动驾驶 / tinygrad | 直播写 AI 系统，做了 comma.ai |
-| [3Blue1Brown](https://www.youtube.com/@3blue1brown) | 数学 / 神经网络 | 构建让难概念真正清楚的视觉化工具 |
-| [Fireship](https://www.youtube.com/@Fireship) | 全栈 / AI工具 | 10分钟内 ship 可运行的代码 demo |
+**筛选标准：** 这个人在镜头前写代码或 ship 产物吗？是 → 入选。只谈别人做了什么 → 不入选。
+
+**★ 一级 — 深度 Builder（在镜头前写/跑代码）**
+
+| Builder | 领域 | 为什么入选 |
+|---------|------|-----------|
+| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | ML / 大模型 | 从零写神经网络，GPT-2、tokenizer 全在镜头前完成。~130万订阅。 |
+| [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) | ML 研究 | 在镜头前读 ML 论文，把数学直觉在代码层讲清楚。新论文一出就跟上。 |
+| [Jeremy Howard](https://www.youtube.com/@jeremyphoward) | 深度学习 | fast.ai 创始人。在镜头前从第一原理构建 DL。~14.5万订阅。 |
+| [George Hotz / geohot](https://www.youtube.com/@geohotorg) | 自动驾驶 / ML基础设施 | 直播写 AI 系统，没有脚本。做了 tinygrad 和 comma.ai。~21.6万订阅。 |
+| [Sebastian Raschka](https://www.youtube.com/@sebastianraschka) | 从零实现大模型 | 《从零构建大语言模型》作者。频道跟书走，PyTorch 第一原理。~6.2万订阅。 |
+| [Umar Jamil](https://www.youtube.com/@umarjamil) | Transformer / 扩散模型 | 从零实现 Transformer、RLHF、扩散模型。订阅量低于应有水平。~5万订阅。 |
+
+**☆ 二级 — 广度 Builder（ship demo、覆盖技术全景）**
+
+| Builder | 领域 | 为什么入选 |
+|---------|------|-----------|
+| [Sentdex](https://www.youtube.com/@sentdex) | Python / ML | YouTube 原生，2012年起就在镜头前写代码。神经网络、机器人、量化交易。~130万订阅。 |
+| [3Blue1Brown](https://www.youtube.com/@3blue1brown) | 数学 / 神经网络 | 构建让 Attention 和 Transformer 真正清楚的视觉化工具。不写代码，但是视觉 Builder。~820万订阅。 |
+| [Fireship](https://www.youtube.com/@Fireship) | 全栈 / AI工具 | 最好的广度信号层。每个重要 AI 发布几天内就覆盖，10分钟内 ship 可运行 demo。~410万订阅。 |
+| [Theo (t3.gg)](https://www.youtube.com/@t3dotgg) | 全栈 / AI产品 | 直播 ship AI 产品。T3 Chat 5天做完。对 AI 工具链有诚实的开发者视角，不炒作。~47万订阅。 |
 
 ### 安装
 
